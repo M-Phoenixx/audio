@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(46, 208, 236);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    width: 4rem;
+    height: 3rem;
+    background: rgb(129, 25, 226);
+    color: snow;
+    font-weight: bold;
+    border-radius: .3rem;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn:hover{
+opacity: .9;
+}
+
+@media only screen and (max-width: 550px ) {
+   .container{
+    height: 100%;
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+}
